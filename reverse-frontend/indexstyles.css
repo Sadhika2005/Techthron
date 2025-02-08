@@ -1,9 +1,9 @@
 /* Apply Background Image */
 body {
     font-family: Arial, sans-serif;
-    background: url('shopping-background.jpg') no-repeat center center fixed;
+    background: url('shop-background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: black;
+    color: white; /* Changed text color to white */
     text-align: center;
     padding: 50px;
     display: flex;
@@ -25,7 +25,7 @@ body {
 
 /* Headings */
 h1, h2 {
-    color: black;
+    color: white; /* Changed headings text color to white */
 }
 
 /* Dropdown (Category Selection) */
