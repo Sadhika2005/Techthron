@@ -3,36 +3,36 @@ body {
     font-family: Arial, sans-serif;
     background: url('shopping-background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Shifted to left */
     justify-content: center;
-    height: 100vh; /* Full screen height */
+    height: 100vh;
+    margin-left: 50px; /* Moved content slightly to the left */
 }
-
 
 /* Main Container */
 .container {
-    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    background: rgba(255, 255, 255, 0.7); /* Light transparent background */
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     width: 50%;
 }
 
 /* Headings */
 h1, h2 {
-    color: white; /* Ensures headings are readable */
+    color: black;
 }
 
 /* Dropdown (Category Selection) */
 select {
-    background-color: black;
-    color: white;
-    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -41,18 +41,18 @@ select {
 /* Text Area (Description Input) */
 textarea {
     width: 80%;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
     padding: 10px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px; /* Slightly curved corners */
 }
 
 /* Button */
 button {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -74,7 +74,7 @@ button:hover {
 }
 
 #generatedImage {
-    border: 3px solid white;
+    border: 3px solid black;
     margin-top: 20px;
     display: none;
     width: 300px;
