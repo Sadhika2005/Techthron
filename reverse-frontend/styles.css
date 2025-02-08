@@ -1,0 +1,53 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AEC6CF; /* Pastel Blue */
+    text-align: center;
+    padding: 50px;
+}
+
+/* Login Container */
+.login-container {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+/* Login Heading */
+.login-container h2 {
+    font-family: "Bungee", sans-serif; /* Imported font */
+    color: blue;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white; /* White background */
+    font-family: "Arial Black", sans-serif; /* Apply Arial Black */
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #218838;
+}
